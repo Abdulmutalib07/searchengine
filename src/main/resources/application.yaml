@@ -1,4 +1,16 @@
-# example values
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/search_engine?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+    username: root
+    password: Az1k5212
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+        format_sql: true
 
 indexing-settings:
   sites:
@@ -8,3 +20,4 @@ indexing-settings:
       name: Skillbox
     - url: https://www.playback.ru
       name: PlayBack.Ru
+  user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36

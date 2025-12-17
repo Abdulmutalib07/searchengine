@@ -1,0 +1,51 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+[32m :: Spring Boot :: [39m              [2m (v2.7.1)[0;39m
+
+[2m2025-12-17 10:45:57.269[0;39m [32m INFO[0;39m [35m65363[0;39m [2m---[0;39m [2m[           main][0;39m [36msearchengine.Application                [0;39m [2m:[0;39m Starting Application v1.0-SNAPSHOT using Java 24.0.1 on MacBook-Pro-Abdulmutalib.local with PID 65363 (/Users/abdulmutalib_007/IdeaProjects/searchengine/target/SearchEngine-1.0-SNAPSHOT.jar started by abdulmutalib_007 in /Users/abdulmutalib_007/IdeaProjects/searchengine)
+[2m2025-12-17 10:45:57.270[0;39m [32m INFO[0;39m [35m65363[0;39m [2m---[0;39m [2m[           main][0;39m [36msearchengine.Application                [0;39m [2m:[0;39m No active profile set, falling back to 1 default profile: "default"
+[2m2025-12-17 10:45:57.487[0;39m [32m INFO[0;39m [35m65363[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2m2025-12-17 10:45:57.512[0;39m [32m INFO[0;39m [35m65363[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Finished Spring Data repository scanning in 21 ms. Found 4 JPA repository interfaces.
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by org.apache.tomcat.jni.Library in an unnamed module (jar:file:/Users/abdulmutalib_007/IdeaProjects/searchengine/target/SearchEngine-1.0-SNAPSHOT.jar!/BOOT-INF/lib/tomcat-embed-core-9.0.64.jar!/)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+[2m2025-12-17 10:45:57.730[0;39m [32m INFO[0;39m [35m65363[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 8080 (http)
+[2m2025-12-17 10:45:57.735[0;39m [32m INFO[0;39m [35m65363[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+[2m2025-12-17 10:45:57.735[0;39m [32m INFO[0;39m [35m65363[0;39m [2m---[0;39m [2m[           main][0;39m [36morg.apache.catalina.core.StandardEngine [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/9.0.64]
+[2m2025-12-17 10:45:57.767[0;39m [32m INFO[0;39m [35m65363[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+[2m2025-12-17 10:45:57.767[0;39m [32m INFO[0;39m [35m65363[0;39m [2m---[0;39m [2m[           main][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 477 ms
+[2m2025-12-17 10:45:57.852[0;39m [32m INFO[0;39m [35m65363[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.hibernate.jpa.internal.util.LogHelper [0;39m [2m:[0;39m HHH000204: Processing PersistenceUnitInfo [name: default]
+[2m2025-12-17 10:45:57.876[0;39m [32m INFO[0;39m [35m65363[0;39m [2m---[0;39m [2m[           main][0;39m [36morg.hibernate.Version                   [0;39m [2m:[0;39m HHH000412: Hibernate ORM core version 5.6.9.Final
+[2m2025-12-17 10:45:57.944[0;39m [32m INFO[0;39m [35m65363[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.hibernate.annotations.common.Version  [0;39m [2m:[0;39m HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2m2025-12-17 10:45:57.994[0;39m [32m INFO[0;39m [35m65363[0;39m [2m---[0;39m [2m[           main][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Starting...
+[2m2025-12-17 10:45:58.086[0;39m [32m INFO[0;39m [35m65363[0;39m [2m---[0;39m [2m[           main][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Start completed.
+[2m2025-12-17 10:45:58.094[0;39m [32m INFO[0;39m [35m65363[0;39m [2m---[0;39m [2m[           main][0;39m [36morg.hibernate.dialect.Dialect           [0;39m [2m:[0;39m HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[2m2025-12-17 10:45:58.433[0;39m [32m INFO[0;39m [35m65363[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.h.e.t.j.p.i.JtaPlatformInitiator      [0;39m [2m:[0;39m HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2m2025-12-17 10:45:58.438[0;39m [32m INFO[0;39m [35m65363[0;39m [2m---[0;39m [2m[           main][0;39m [36mj.LocalContainerEntityManagerFactoryBean[0;39m [2m:[0;39m Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2m2025-12-17 10:45:58.823[0;39m [33m WARN[0;39m [35m65363[0;39m [2m---[0;39m [2m[           main][0;39m [36mJpaBaseConfiguration$JpaWebConfiguration[0;39m [2m:[0;39m spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2m2025-12-17 10:45:58.883[0;39m [32m INFO[0;39m [35m65363[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.a.w.s.WelcomePageHandlerMapping   [0;39m [2m:[0;39m Adding welcome page template: index
+[2m2025-12-17 10:45:58.947[0;39m [32m INFO[0;39m [35m65363[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 8080 (http) with context path ''
+[2m2025-12-17 10:45:58.951[0;39m [32m INFO[0;39m [35m65363[0;39m [2m---[0;39m [2m[           main][0;39m [36msearchengine.Application                [0;39m [2m:[0;39m Started Application in 6.873 seconds (JVM running for 7.035)
+[2m2025-12-17 10:46:03.406[0;39m [32m INFO[0;39m [35m65363[0;39m [2m---[0;39m [2m[nio-8080-exec-1][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2m2025-12-17 10:46:03.406[0;39m [32m INFO[0;39m [35m65363[0;39m [2m---[0;39m [2m[nio-8080-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[2m2025-12-17 10:46:03.407[0;39m [32m INFO[0;39m [35m65363[0;39m [2m---[0;39m [2m[nio-8080-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 1 ms
+[2m2025-12-17 14:05:50.652[0;39m [33m WARN[0;39m [35m65363[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h23m41s491ms).
+[2m2025-12-17 14:17:51.571[0;39m [33m WARN[0;39m [35m65363[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12m919ms).
+[2m2025-12-17 14:42:56.075[0;39m [33m WARN[0;39m [35m65363[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m34s388ms).
+[2m2025-12-17 14:56:02.633[0;39m [33m WARN[0;39m [35m65363[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m5s646ms).
+[2m2025-12-17 15:55:11.822[0;39m [33m WARN[0;39m [35m65363[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m32s76ms).
+[2m2025-12-17 15:58:29.648[0;39m [33m WARN[0;39m [35m65363[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m17s801ms).
+[2m2025-12-17 16:19:11.689[0;39m [33m WARN[0;39m [35m65363[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m11s878ms).
+[2m2025-12-17 16:31:19.535[0;39m [33m WARN[0;39m [35m65363[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m7s760ms).
+[2m2025-12-17 16:41:55.073[0;39m [33m WARN[0;39m [35m65363[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m35s542ms).
+[2m2025-12-17 16:59:13.947[0;39m [33m WARN[0;39m [35m65363[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m48s751ms).
+[2m2025-12-17 18:00:57.519[0;39m [32m INFO[0;39m [35m65363[0;39m [2m---[0;39m [2m[ionShutdownHook][0;39m [36mj.LocalContainerEntityManagerFactoryBean[0;39m [2m:[0;39m Closing JPA EntityManagerFactory for persistence unit 'default'
+[2m2025-12-17 18:00:57.524[0;39m [32m INFO[0;39m [35m65363[0;39m [2m---[0;39m [2m[ionShutdownHook][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Shutdown initiated...
+[2m2025-12-17 18:00:57.526[0;39m [32m INFO[0;39m [35m65363[0;39m [2m---[0;39m [2m[ionShutdownHook][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Shutdown completed.
